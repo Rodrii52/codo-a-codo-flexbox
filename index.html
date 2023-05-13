@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Proyecto Final Front</title>
+
+    <!-- favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+    <!--kit de fontawesome-->
+    <script src="https://kit.fontawesome.com/c538ed8188.js" crossorigin="anonymous"></script>
+    <!--estilos externos CORRECTA!!-->
+    <link rel="stylesheet" href="./css/estilos.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="headerNav">
+            <div class="contenedorLogo">
+                <a href="#">
+                    <img src="./assets/img/codoacodo.png" alt="Logo" />
+                </a>
+                <h2>Conf Bs As</h2>
+            </div>
+            <nav class="navegacion">
+                <ul class="listaNav">
+                    <li><a class="linkNav" href="#laConferencia">La Conferencia</a></li>
+                    <li><a class="linkNav" href="#losOradores">Los Oradores</a></li>
+                    <li><a class="linkNav" href="#lugarYfecha">Lugar y La Fecha</a></li>
+                    <li>
+                        <a class="linkNav" href="#convierteteEnOrador">Conviertete en Orador</a>
+                    </li>
+                    <li>
+                        <a class="linkNav activo" href="./pages/comprar_tickets.html">Comprar tickets</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <section id="laConferencia" class="laConferencia">
+            <div class="contenedorTextConf">
+                <h1>Conf Bs. As.</h1>
+                <p>
+                    Bs. As. llega por primera vez a la Argentina. Un evento para
+                    compartir con nuestra comunidad el conocimiento y la experiencia de
+                    los expertos que están creando el futuro de internet. Ven a conocer
+                    a miembros del evento, a otros estudiantes de Codo a Codo y a los
+                    oradores de primer nivel que tenemos para ti. Te esperamos!
+                </p>
+                <div class="botonesConferencia">
+                    <a href="#convierteteEnOrador" class="conviertete">Quiero ser orador</a>
+                    <a href="./pages/comprar_tickets.html" class="tickets">Comprar tickets</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="losOradores" class="sectionOradores">
+            <h1>Conoce a los <span>oradores</span></h1>
+            <div class="padreCards">
+                <div class="card" id="cardUno">
+                    <img src="./assets/img/steve.jpg" alt="Steve Jobs" />
+                    <div class="cardBody">
+                        <div class="cardTags">
+                            <h4 class="tagJavaScript">Javascript</h4>
+                            <h4 class="tagReact">React</h4>
+                        </div>
+
+                        <h2>Steve Jobs</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+                            debitis ullam voluptates fugiat nemo, excepturi, distinctio hic
+                            quisquam voluptatem quidem sequi! Odio odit aliquam, non
+                            molestias repudiandae fugit repellat at!
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/bill.jpg" alt="Bill Gates" />
+                    <div class="cardBody">
+                        <div class="cardTags">
+                            <h4 class="tagJavaScript">Javascript</h4>
+                            <h4 class="tagReact">React</h4>
+                        </div>
+                        <h2>Bill Gates</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+                            debitis ullam voluptates fugiat nemo, excepturi, distinctio hic
+                            quisquam voluptatem quidem sequi! Odio odit aliquam, non
+                            molestias repudiandae fugit repellat at!
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/ada.jpeg" alt="Ada" />
+                    <div class="cardBody">
+                        <div class="cardTags">
+                            <h4 class="tagNegocios">Negocios</h4>
+                            <h4 class="tagStartups">Startups</h4>
+                        </div>
+                        <h2>Ada Lovelace</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+                            debitis ullam voluptates fugiat nemo, excepturi, distinctio hic
+                            quisquam voluptatem quidem sequi! Odio odit aliquam, non
+                            molestias repudiandae fugit repellat at!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="lugarYfecha" class="lugarFecha">
+            <div class="left"></div>
+            <div class="right">
+                <h2>Bs.As - Octubre</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At placeat
+                    molestias vitae unde facere voluptatem minus voluptates commodi
+                    corrupti tenetur! Pariatur qui enim animi sapiente sed error
+                    similique molestiae ipsum! Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Perspiciatis, excepturi deleniti harum facilis id,
+                    a illo assumenda officiis illum praesentium eos. Qui laborum ratione
+                    in hic ducimus debitis voluptatum aperiam.
+                </p>
+                <a href="" class="ConoceMas">Conocé más</a>
+            </div>
+        </section>
+        <section id="convierteteEnOrador" class="formularioOrador">
+            <h1>Conviértete en un <span>orador</span></h1>
+            <p>
+                Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!
+            </p>
+            <form action="" autocomplete="on">
+                <div>
+                    <input class="inputNA" type="text" placeholder="Nombre" required />
+                    <input class="inputNA" type="text" placeholder="Apellido" required />
+                </div>
+                <div>
+                    <textarea class="inputNA textArea" name="" id="" cols="44" rows="6"
+                        placeholder="Sobre qué quieres hablar?" required></textarea>
+                </div>
+                <div>Recuerda incluir un título para tu charla.</div>
+                <div>
+                    <input type="submit" value="Enviar" class="formSubmit" />
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedorFooter">
+            <a href="">Preguntas <span>frecuentes</span></a>
+            <a href="">Contáctanos</a>
+            <a href="">Prensa</a>
+            <a href="">Conferencias</a>
+            <a href="">Términos y <span>condiciones</span></a>
+            <a href="">Privacidad</a>
+            <a href="">Estudiantes</a>
+        </div>
+    </footer>
+</body>
+
+</html>
