@@ -352,6 +352,11 @@ body {
     width: 70%;
   }
 
+  .botonesConferencia {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .formularioOrador {
     width: 95%;
   }
@@ -465,6 +470,10 @@ body {
     justify-content: center;
     height: initial;
     padding: 1rem 1rem;
+  }
+
+  .contenedorTextConf {
+    width: 80%;
   }
 
   .contenedorLogo {
