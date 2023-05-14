@@ -391,8 +391,8 @@ body {
     background: linear-gradient(to bottom, #000000c2, #000000c2);
     text-align: center;
     width: auto;
-    padding: 2rem;
-    margin-bottom: 5rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
   }
 
   .footer {
